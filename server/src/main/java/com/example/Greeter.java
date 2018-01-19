@@ -1,3 +1,4 @@
+package info.example;
 package com.example;
 
 /**
@@ -13,11 +14,11 @@ public class Greeter {
   }
 
 /**
- *test  done for @param
- *test 
+ * test  done for @param
+ * test  done for @rest
 */
 
-  public final String greet(final String someone) {
+  public final String greet( final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
